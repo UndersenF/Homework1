@@ -53,5 +53,10 @@ public class Main {
         var remains = firstWeight % secondWeight;
         System.out.println("Остаток от деление  - " + remains);
 
+        var allTime = 640;
+        var timeOfWork = 8;
+        var countOfWorkers = allTime / timeOfWork;
+
+        System.out.println("Если в компании работает " + countOfWorkers + " человек, то  всего " + allTime + " часов работы может быть поделено между сотрудниками");
     }
 }
