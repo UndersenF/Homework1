@@ -1,5 +1,68 @@
 public class Main {
     public static void main(String[] args) {
-        //так понимаю не надо было делать commit and push после каждого пункта
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
+
+        var sumOfBoth = firstFighter + secondFighter;
+        System.out.println("Вес двух бойцов вместе - " + sumOfBoth);
+        var weightDif = firstFighter - secondFighter ;
+        System.out.println("Разница в весе - " + Math.abs(weightDif));
+
+        var firstWeight = 19;
+        var secondWeight = 5;
+        var remains = firstWeight % secondWeight;
+        System.out.println("Остаток от деление  - " + remains);
+
+        var allTime = 640;
+        var timeOfWork = 8;
+        var countOfWorkers = allTime / timeOfWork;
+
+        System.out.println("Всего работников в компании -  " + countOfWorkers + " человек");
+
+        countOfWorkers = countOfWorkers + 94;
+        allTime = countOfWorkers * timeOfWork;
+
+        System.out.println("Если в компании работает " + countOfWorkers + " человек, то  всего " + allTime + " часов работы может быть поделено между сотрудниками");
+
     }
 }
