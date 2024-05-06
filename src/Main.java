@@ -48,5 +48,10 @@ public class Main {
         var weightDif = firstFighter - secondFighter ;
         System.out.println("Разница в весе - " + Math.abs(weightDif));
 
+        var firstWeight = 19;
+        var secondWeight = 5;
+        var remains = firstWeight % secondWeight;
+        System.out.println("Остаток от деление  - " + remains);
+
     }
 }
