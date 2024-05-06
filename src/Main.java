@@ -57,6 +57,12 @@ public class Main {
         var timeOfWork = 8;
         var countOfWorkers = allTime / timeOfWork;
 
+        System.out.println("Всего работников в компании -  " + countOfWorkers + " человек");
+
+        countOfWorkers = countOfWorkers + 94;
+        allTime = countOfWorkers * timeOfWork;
+
         System.out.println("Если в компании работает " + countOfWorkers + " человек, то  всего " + allTime + " часов работы может быть поделено между сотрудниками");
+
     }
 }
