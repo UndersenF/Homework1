@@ -44,9 +44,9 @@ public class Main {
         var secondFighter = 82.7;
 
         var sumOfBoth = firstFighter + secondFighter;
-        System.out.println("Вес двух бойцов вместе - " + sumOfBoth );
+        System.out.println("Вес двух бойцов вместе - " + sumOfBoth);
         var weightDif = firstFighter - secondFighter ;
-        System.out.println("Разница в весе - " + Math.abs(weightDif) );
+        System.out.println("Разница в весе - " + Math.abs(weightDif));
 
     }
 }
