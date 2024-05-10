@@ -84,5 +84,36 @@ public class Main {
 
 //        Задача 7
         System.out.println();
+
+        short summaryWeight  = 7000;
+        short loseWeightPerDay1 = 250;
+        short loseWeightPerDay2 = 500;
+
+        byte firstDiet = (byte) (summaryWeight / loseWeightPerDay1);
+        byte secondDiet = (byte) (summaryWeight / loseWeightPerDay2);
+
+        System.out.println("худея на 250 грамм в день потребуется " + firstDiet + " дней.");
+        System.out.println("худея на 500 грамм в день потребуется " + secondDiet + " дней.");
+
+//        Задача 8
+        System.out.println();
+
+        float increaseOfSalary = 1.1F;
+
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+
+        float increasedSalaryMasha = salaryMasha * increaseOfSalary;
+        float increasedSalaryDenis = salaryDenis * increaseOfSalary;
+        float increasedSalaryKristina = salaryKristina * increaseOfSalary;
+
+        float differenceMasha = increasedSalaryMasha - salaryMasha;
+        float differenceDenis = increasedSalaryDenis - salaryDenis;
+        float differenceKristina = increasedSalaryKristina - salaryKristina;
+
+        System.out.println("Маша теперь получает " + increasedSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + "рублей." );
+        System.out.println("Денис теперь получает " + increasedSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + "рублей." );
+        System.out.println("Кристина теперь получает " + increasedSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + "рублей." );
     }
 }
